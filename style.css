@@ -1,0 +1,258 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #ffffff;
+  text-transform: none;
+
+  background-color: #8ca697;
+  /*здесь будет слайдер */
+}
+
+.main-navigation {  
+width: 349px;
+height: 15px;
+color: #ffffff;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 18px;
+}
+li {
+	list-style: none;
+}
+.new-items div {
+width: 143px;
+height: 171px;
+box-shadow: 0 20px 20px rgba(0, 0, 0, 0.4);
+background-color: #f8f7f4;
+}
+
+.site-navigation p {
+/* Style for "Новинки" */
+width: 56px;
+height: 11px;
+color: #323232;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+}
+.new-items a {
+color: #323232;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+}
+.new-items ul {
+width: 102px;
+height: 106px;
+}
+.new-items a:hover {
+	background-color: #fbded7;
+}
+.new-items a:focus {
+	background-color: #f6b5a5;
+}
+
+.search form {
+width: 341px;
+height: 84px;
+box-shadow: 0 20px 20px rgba(0, 0, 0, 0.4);
+background-color: #f8f7f4;
+}
+
+::placeholder {;
+width: 71px;
+height: 13px;
+color: #999999;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+/*учтонить насчет плйсхолдера либо нужно доп. класс прописывать*/
+} 
+.registration {
+width: 277px;
+height: 214px;
+box-shadow: 0 20px 20px rgba(0, 0, 0, 0.4);
+background-color: #f8f7f4;
+}
+
+.registration a {
+
+/* Style for "Забыли пар" */
+height: 13px;
+color: #323232;
+font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+line-height: 24px;
+}
+
+a:hover,
+a:focus,
+ {
+  background-color: #ffffff;
+  color:#efb89c;
+}
+
+  button {
+height: 44px;
+box-shadow: 0 1px 2px #ac1000;
+background-color: #e84d37;
+background-image: linear-gradient(to top, #e74a35 0%, #f26843 100%);
+}
+
+.busket {
+width: 38px;
+height: 13px;
+color: #ffffff;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+}
+.enter {
+width: 32px;
+height: 13px;
+color: #ffffff;
+color: #ffffff;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+}
+.work-time {
+width: 151px;
+height: 13px;
+color: #ffffff;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+}
+.work-time a {
+width: 166px;
+height: 17px;
+color: #ffffff;
+font-family: Roboto;
+font-size: 22px;
+font-weight: 700;
+line-height: 24px;
+}
+.catalog-item-title {
+height: 38px;
+color: #ffffff;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 22px;
+/*уточнить нужно ли здесь прописывать ширину и если колор это цвет текста, зачем нужен тег текст-колор*/
+}
+.catalog-item li:hover {
+width: 293px;
+height: 405px;
+box-shadow: 0 20px 20px rgba(0, 0, 0, 0.4);
+background-color: #f8f7f4;
+opacity: 0.2;
+}
+
+.feathures {
+background-color:#eae1cb;
+width: 1250px;
+height: 2449px;
+/*указать позицию*/
+}
+.feathures-title {
+width: 1013px;
+height: 54px;
+color: #323232;
+font-family: Roboto;
+font-size: 24px;
+font-weight: 500;
+line-height: 30px;
+}
+.feathures-title-current {	
+width: 476px;
+height: 171px;
+color: #323232;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+/*текст в авокодо разьит на 2 блока и показывает размеры только одного из них, нужно подумать как прописать это. Возможно с помошью колумнс*/
+}
+.subscription {	
+width: 560px;
+height: 220px;
+background-color: #f8f7f4;
+/*отдельно прописать границы, закругление, цвет и т.д.*/
+}
+.news {	
+width: 560px;
+height: 220px;
+background-color: #f8f7f4;
+}
+.news-title {
+width: 161px;
+height: 14px;
+color: #323232;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 22px;
+}
+.news a {
+width: 279px;
+height: 84px;
+color: #323232;
+font-family: Roboto;
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+}
+
+.subscription p {
+width: 506px;
+height: 61px;
+color: #5a5a5a;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+}
+.button subscription-button {
+width: 91px;
+height: 17px;
+color: #fefefe;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+}
+.different {
+width: 111px;
+height: 13px;
+color: #ffffff;
+font-family: Roboto;
+font-size: 13px;
+font-weight: 700;
+line-height: 18px;
+}
+.footer-copyright {
+width: 189px;
+height: 12px;
+color: #fefefe;
+font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+}
+
+

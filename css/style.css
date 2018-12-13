@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   line-height: 22px;
   font-weight: 500;
@@ -13,12 +13,20 @@ body {
   /*здесь будет слайдер */
 }
 
-.main-navigation {  
-width: 349px;
-height: 15px;
-color: #ffffff;
-font-family: Roboto;
-font-size: 16px;
+.site-navigation-link {
+  line-height: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+.main-navigation {
+/*width: 349px;*/
+/*height: 15px;*/
+/*color: #ffffff;*/
+/*font-family: Roboto;*/
+/*font-size: 16px;*/
 font-weight: 700;
 line-height: 18px;
 }
@@ -48,7 +56,13 @@ font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
 line-height: 16px;
+
 }
+
+.new-items a.active {
+  color: red;
+}
+
 .new-items ul {
 width: 102px;
 height: 106px;
@@ -70,7 +84,7 @@ font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
 line-height: 24px;
-} 
+}
 .registration {
 width: 277px;
 height: 214px;
@@ -89,9 +103,16 @@ font-weight: 400;
 line-height: 24px;
 }
 
+.hidden-block {
+  display: none;
+}
+
+.site-navigation-link:hover + .hidden-block {
+  display: block;
+}
+
 a:hover,
-a:focus,
- {
+a:focus {
   background-color: #ffffff;
   color:#efb89c;
 }
@@ -155,7 +176,7 @@ font-size: 24px;
 font-weight: 500;
 line-height: 30px;
 }
-.feathures-title-current {	
+.feathures-title-current {
 width: 476px;
 height: 171px;
 color: #323232;
@@ -165,13 +186,13 @@ font-weight: 400;
 line-height: 22px;
 /*текст в авокодо разьит на 2 блока и показывает размеры только одного из них, нужно подумать как прописать это. Возможно с помошью колумнс*/
 }
-.subscription {	
+.subscription {
 width: 560px;
 height: 220px;
 background-color: #f8f7f4;
 /*отдельно прописать границы, закругление, цвет и т.д.*/
 }
-.news {	
+.news {
 width: 560px;
 height: 220px;
 background-color: #f8f7f4;
